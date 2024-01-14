@@ -27,10 +27,11 @@ public class Program {
                      System.out.println(a + " * " + b + " = " + result);
                  } else if (operation == '/' ) {
                      float result = a / b;
-                     System.out.println(a + " / " + b + " = " + result);
-                     if (b == 0){
+                        if (b == 0){
                          System.out.println("Ділення на 0 неможливе");
                      }
+                     System.out.println(a + " / " + b + " = " + result);
+        
 
 
 
