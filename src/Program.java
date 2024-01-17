@@ -6,7 +6,8 @@ class DivideByZeroException extends RuntimeException {
         super("Ділення на нуль недопустиме");
     }
 
-}
+
+  
 
 public class Program {
 
